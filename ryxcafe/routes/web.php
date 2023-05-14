@@ -16,9 +16,9 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get("/", [HomeController::class,"index"]);
-Route::middleware([
-    'auth:sanctum',
-    'verified'
-])->get('/dashboard', function () {
+
+Route::get("/redirects", [HomeController::class,"redirects"]);
+
+Route::middleware(['auth:sanctum','verified'])->get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');

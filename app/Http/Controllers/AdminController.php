@@ -42,6 +42,5 @@ class AdminController extends Controller
             $data->save();
             return redirect()->back();
 
-
     }
 }

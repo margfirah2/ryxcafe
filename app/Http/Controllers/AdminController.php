@@ -44,7 +44,7 @@ class AdminController extends Controller
         return view("admin.updateview",compact("data"));
     }
 
-    public function update($id){
+    public function update(Request $request, $id){
 
         $data=food::find($id);
 
@@ -73,10 +73,10 @@ class AdminController extends Controller
         $image=$request->image;
 
         $imagename=time().'.'.$image->getClientOriginalExtension();
-            $request->image->move('foodimage', $imagename);
+            $request->file('image')->store('image');
             
             $data->image=$imagename;
-
+ 
             $data->title=$request->title;
 
             $data->price=$request->price;

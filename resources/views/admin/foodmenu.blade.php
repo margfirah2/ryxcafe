@@ -15,21 +15,22 @@
   @include("admin.navbar");
 
     <div style="position: relative; top: 60px; right: -150px;">
-        <form action="{{url('/uploadfood')}}" method="post" enctype="multipart/form-data">
+       
+    <form action="{{url('/uploadfood')}}" method="post" enctype="multipart/form-data">
 
         @csrf
             <div>
-                <label>title</label>
+                <label>Title</label>
                 <input style="color:black" type="text" name="title" placeholder="Write a title" required>
             </div>
 
             <div>
-                <label>price</label>
+                <label>Price</label>
                 <input style="color:black" type="num" name="price" placeholder="price" required>
             </div>
 
             <div>
-                <label>image</label>
+                <label>Image</label>
                 <input type="file" name="image" required>
             </div>
 
@@ -41,10 +42,47 @@
             <div>
                 <input type="submit" value="save">
             </div>
-        </form>
-    </div>
 
-  </div>
+
+        </form>
+
+    <div>
+
+    <table bgcolor="black">
+    <tr>
+        <th style="padding: 30px">Food Name</th>
+        <th style="padding: 30px">Price</th>
+        <th style="padding: 30px">Description</th>
+        <th style="padding: 30px">Image</th>
+        <th style="padding: 30px">Action</th>
+        <th style="padding: 30px">Action2</th>
+
+
+</tr>
+
+
+
+@foreach($data as $data)
+
+<tr align="center">
+    <td>{{$data->title}}</td>
+    <td>{{$data->price}}</td>
+    <td>{{$data->description}}</td>
+    <td><img height="200" width="200" src="/foodimage/{{$data->image}}"></td>
+   
+   
+    <td><a href="{{url('/deletemenu',$data->id)}}">Delete</a></td>
+    
+    <td><a href="{{url('/updateview',$data->id)}}">Update</a></td>
+
+
+</tr>
+
+
+    @endforeach
+  
+</table>
+</div>
   @include("admin.adminscript");
  
   </body>

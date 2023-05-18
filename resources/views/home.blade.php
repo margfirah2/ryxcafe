@@ -71,7 +71,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li>
                         -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
-                            <li class="scroll-to-section"><a href="#chefs">Chefs</a></li> 
+                            <!-- <li class="scroll-to-section"><a href="#chefs">Chefs</a></li>  -->
                             <li class="submenu">
                                 <a href="javascript:;">Features</a>
                                 <ul>
@@ -123,7 +123,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
-                            <h4>KlassyCafe</h4>
+                            <h4>RxYCafe</h4>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Make A Reservation</a>
@@ -203,7 +203,7 @@ https://templatemo.com/tm-558-klassy-cafe
     @include("food")
 
     <!-- ***** Chefs Area Starts ***** -->
-    <section class="section" id="chefs">
+    <!-- <section class="section" id="chefs">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
@@ -267,7 +267,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Chefs Area Ends ***** -->
 
     <!-- ***** Reservation Us Area Starts ***** -->

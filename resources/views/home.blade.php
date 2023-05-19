@@ -10,14 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- <title>Klassy Cafe - Restaurant HTML Template</title> -->
-<!--
-    
-TemplateMo 558 Klassy Cafe
-
-https://templatemo.com/tm-558-klassy-cafe
-
--->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -51,7 +43,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="/" class="logo">
                             <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
                         </a>
                         <!-- ***** Logo End ***** -->
@@ -60,28 +52,8 @@ https://templatemo.com/tm-558-klassy-cafe
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
                            	
-                        <!-- 
-                            <li class="submenu">
-                                <a href="javascript:;">Drop Down</a>
-                                <ul>
-                                    <li><a href="#">Drop Down Page 1</a></li>
-                                    <li><a href="#">Drop Down Page 2</a></li>
-                                    <li><a href="#">Drop Down Page 3</a></li>
-                                </ul>
-                            </li>
-                        -->
                             <li class="scroll-to-section"><a href="#menu">Menu</a></li>
-                            <!-- <li class="scroll-to-section"><a href="#chefs">Chefs</a></li>  -->
-                            <li class="submenu">
-                                <a href="javascript:;">Features</a>
-                                <ul>
-                                    <li><a href="#">Features Page 1</a></li>
-                                    <li><a href="#">Features Page 2</a></li>
-                                    <li><a href="#">Features Page 3</a></li>
-                                    <li><a href="#">Features Page 4</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
+    
                             <li class="scroll-to-section"><a href="#reservation">Contact Us</a></li> 
                         
                             <li>
@@ -105,10 +77,6 @@ https://templatemo.com/tm-558-klassy-cafe
                             </li>
 
                         </ul>        
-                        <!-- <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a> -->
-                        <!-- ***** Menu End ***** -->
                     </nav>
                 </div>
             </div>
@@ -205,73 +173,6 @@ https://templatemo.com/tm-558-klassy-cafe
 
     @include("food")
 
-    <!-- ***** Chefs Area Starts ***** -->
-    <!-- <section class="section" id="chefs">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4 text-center">
-                    <div class="section-heading">
-                        <h6>Our Chefs</h6>
-                        <h2>We offer the best ingredients for you</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="chef-item">
-                        <div class="thumb">
-                            <div class="overlay"></div>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                            <img src="assets/images/chefs-01.jpg" alt="Chef #1">
-                        </div>
-                        <div class="down-content">
-                            <h4>Randy Walker</h4>
-                            <span>Pastry Chef</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="chef-item">
-                        <div class="thumb">
-                            <div class="overlay"></div>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                            <img src="assets/images/chefs-02.jpg" alt="Chef #2">
-                        </div>
-                        <div class="down-content">
-                            <h4>David Martin</h4>
-                            <span>Cookie Chef</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="chef-item">
-                        <div class="thumb">
-                            <div class="overlay"></div>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google"></i></a></li>
-                            </ul>
-                            <img src="assets/images/chefs-03.jpg" alt="Chef #3">
-                        </div>
-                        <div class="down-content">
-                            <h4>Peter Perkson</h4>
-                            <span>Pancake Chef</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- ***** Chefs Area Ends ***** -->
 
     @include("reservation")
 
@@ -281,8 +182,8 @@ https://templatemo.com/tm-558-klassy-cafe
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Klassy Week</h6>
-                        <h2>This Week’s Special Meal Offers</h2>
+                        <h6>RxY Week</h6>
+                        <h2> Spesial Menu </h2>
                     </div>
                 </div>
             </div>
@@ -294,9 +195,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                 <div class="row">
                                     <div class="col-lg-6 offset-lg-3">
                                         <ul>
-                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Breakfast</a></li>
-                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Lunch</a></a></li>
-                                          <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Dinner</a></a></li>
+                                          <li><a href='#tabs-1'><img src="assets/images/tab-icon-01.png" alt="">Sarapan</a></li>
+                                          <li><a href='#tabs-2'><img src="assets/images/tab-icon-02.png" alt="">Makan siang</a></a></li>
+                                          <li><a href='#tabs-3'><img src="assets/images/tab-icon-03.png" alt="">Makan malam</a></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -312,10 +213,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
-                                                            <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <h4>Chicken Salad</h4>
                                                             <div class="price">
-                                                                <h6>$10.50</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -323,9 +223,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$8.50</h6>
+                                                                <h6>15000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -333,9 +232,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$9.90</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -348,10 +246,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                                     <div class="col-lg-12">
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
-                                                            <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
+                                                            <h4>Omelette</h4>
                                                             <div class="price">
-                                                                <h6>$6.50</h6>
+                                                                <h6>25000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -359,9 +256,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
                                                             <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$5.00</h6>
+                                                                <h6>23000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -369,9 +265,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
                                                             <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$4.10</h6>
+                                                                <h6>30000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -389,9 +284,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$14</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -399,9 +293,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
                                                             <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$18</h6>
+                                                                <h6>18000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -409,9 +302,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
                                                             <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$22</h6>
+                                                                <h6>23000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -425,9 +317,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$10</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -435,9 +326,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$20</h6>
+                                                                <h6>15000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -445,9 +335,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$30</h6>
+                                                                <h6>25000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -465,9 +354,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
                                                             <h4>Eggs Omelette</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$14</h6>
+                                                                <h6>18000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -475,9 +363,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Orange Juice</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$18</h6>
+                                                                <h6>15000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -485,9 +372,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Fruit Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$10</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -501,9 +387,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
                                                             <h4>Fresh Chicken Salad</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$8.50</h6>
+                                                                <h6>25000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -511,9 +396,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Dollma Pire</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$9</h6>
+                                                                <h6>20000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -521,9 +405,8 @@ https://templatemo.com/tm-558-klassy-cafe
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Omelette & Cheese</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur koit adipiscing elit, sed do.</p>
                                                             <div class="price">
-                                                                <h6>$11</h6>
+                                                                <h6>18000</h6>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -549,22 +432,19 @@ https://templatemo.com/tm-558-klassy-cafe
                     <div class="right-text-content">
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>.
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
+                        <a href="/"><img src="assets/images/white-logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
-                        
-                        <br>Design: TemplateMo</p>
+                        <p>© Copyright <strong>Rahmatul idami & Maghfirah</strong>.
                     </div>
                 </div>
             </div>

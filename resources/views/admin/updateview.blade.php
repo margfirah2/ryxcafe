@@ -19,7 +19,7 @@
 
   <div style="position: relative; top: 60px; right: -150px;">
        
-       <form action="{{url('/update, $data->id')}}" method="post" enctype="multipart/form-data">
+       <form action="{{url('/update',$data->id)}}" method="post" enctype="multipart/form-data">
    
            @csrf
                <div>

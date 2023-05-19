@@ -57,8 +57,7 @@
         <th style="padding: 30px">Action</th>
         <th style="padding: 30px">Action2</th>
 
-
-</tr>
+    </tr>
 
 
 @foreach($data as $data)
@@ -73,7 +72,6 @@
     <td><a href="{{url('/deletemenu',$data->id)}}">Delete</a></td>
     
     <td><a href="{{url('/updateview',$data->id)}}">Update</a></td>
-
 
 </tr>
 

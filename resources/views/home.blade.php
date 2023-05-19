@@ -120,17 +120,7 @@ https://templatemo.com/tm-558-klassy-cafe
     <div id="top">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="left-content">
-                        <div class="inner-content">
-                            <h4>RxYCafe</h4>
-                            <h6>THE BEST EXPERIENCE</h6>
-                            <div class="main-white-button scroll-to-section">
-                                <a href="#reservation">Make A Reservation</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-lg-8">
                     <div class="main-banner header-text">
                         <div class="Modern-Slider">
@@ -158,6 +148,18 @@ https://templatemo.com/tm-558-klassy-cafe
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4">
+                    <div class="left-content">
+                        <div class="inner-content">
+                            <h4><strong>RxYCafe</strong></h4>
+                            <h6>CAFE TERBAIK DI ACEH</h6>
+                            <div class="main-white-button scroll-to-section">
+                                <a href="#reservation"><strong>AYO BUAT PESANAN</strong></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -171,18 +173,19 @@ https://templatemo.com/tm-558-klassy-cafe
                     <div class="left-text-content">
                         <div class="section-heading">
                             <h6>About Us</h6>
-                            <h2>We Leave A Delicious Memory For You</h2>
+                            <h2>RxY Cafe</h2>
                         </div>
-                        <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                        <p>RxY Cafe adalah sebuah cafe yang sangat nyaman yang ada di Aceh
+                            Sehingga untuk memudah pemesanan di RxY Cafe kami menawarkan sebuah web yang dibuat khusus untuk para pelanggan RxY Cafe<br>
+                        <br>berikut ini adalah profil dari Owner RxY Cafe</p>
                         <div class="row">
                             <div class="col-4">
-                                <img src="assets/images/about-thumb-01.jpg" alt="">
+                                <img src="assets/images/about-thumb-01.png" alt="">
+                                <p><strong>Margfirah <br>2108107010021</strong></p>
                             </div>
                             <div class="col-4">
-                                <img src="assets/images/about-thumb-02.jpg" alt="">
-                            </div>
-                            <div class="col-4">
-                                <img src="assets/images/about-thumb-03.jpg" alt="">
+                                <img src="assets/images/about-thumb-02.png" alt="">
+                                <p><strong>Rahmatul Idami <br>2108107010071</strong></p>
                             </div>
                         </div>
                     </div>

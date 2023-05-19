@@ -120,6 +120,7 @@
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
+                            <h4>RxY Cafe</h4>
                             <h6>CAFE TERBAIK DI ACEH</h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation"><strong>AYO BUAT PESANAN</strong></a>

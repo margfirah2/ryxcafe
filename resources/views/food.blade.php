@@ -5,7 +5,7 @@
                 <div class="col-lg-4">
                     <div class="section-heading">
                         <h6>Our Menu</h6>
-                        <h2>Our selection of breakfast with quality taste</h2>
+                        <h2>Berikut adalah menu makanan dan minuman yang ada di RxY Cafe</h2>
                     </div>
                 </div>
             </div>

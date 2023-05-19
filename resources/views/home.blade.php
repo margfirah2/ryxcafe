@@ -161,8 +161,7 @@
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="right-content">
                         <div class="thumb">
-                            <a rel="nofollow" href="http://youtube.com"><i class="fa fa-play"></i></a>
-                            <img src="assets/images/about-video-bg.jpg" alt="">
+                            <img src="assets/images/about-video-bg.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -216,6 +215,7 @@
                                                             <h4>Chicken Salad</h4>
                                                             <div class="price">
                                                                 <h6>20000</h6>
+                                                                <p>Makanan yang sangat lezat cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -225,6 +225,7 @@
                                                             <h4>Orange Juice</h4>
                                                             <div class="price">
                                                                 <h6>15000</h6>
+                                                                <p>Minuman yang sangat segar cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -234,6 +235,7 @@
                                                             <h4>Fruit Salad</h4>
                                                             <div class="price">
                                                                 <h6>20000</h6>
+                                                                <p>Makanan yang sangat sehat cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -249,6 +251,7 @@
                                                             <h4>Omelette</h4>
                                                             <div class="price">
                                                                 <h6>25000</h6>
+                                                                <p>Makanan yang sangat lezat cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -258,6 +261,7 @@
                                                             <h4>Dollma Pire</h4>
                                                             <div class="price">
                                                                 <h6>23000</h6>
+                                                                <p>Makanan yang sangat lezat cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -267,6 +271,7 @@
                                                             <h4>Omelette & Cheese</h4>
                                                             <div class="price">
                                                                 <h6>30000</h6>
+                                                                <p>Makanan yang sangat lezat cocok untuk makan pagi</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -284,8 +289,10 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Eggs Omelette</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>20000</h6>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -293,6 +300,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
                                                             <h4>Dollma Pire</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>18000</h6>
                                                             </div>
@@ -302,6 +310,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
                                                             <h4>Omelette & Cheese</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>23000</h6>
                                                             </div>
@@ -317,6 +326,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Fresh Chicken Salad</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>20000</h6>
                                                             </div>
@@ -326,6 +336,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Orange Juice</h4>
+                                                            <p>Minuman yang sangat segar cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>15000</h6>
                                                             </div>
@@ -335,6 +346,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Fruit Salad</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan siang</p>
                                                             <div class="price">
                                                                 <h6>25000</h6>
                                                             </div>
@@ -354,6 +366,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-05.png" alt="">
                                                             <h4>Eggs Omelette</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>18000</h6>
                                                             </div>
@@ -363,6 +376,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-03.png" alt="">
                                                             <h4>Orange Juice</h4>
+                                                            <p>Minuman yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>15000</h6>
                                                             </div>
@@ -372,6 +386,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-02.png" alt="">
                                                             <h4>Fruit Salad</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>20000</h6>
                                                             </div>
@@ -387,6 +402,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-06.png" alt="">
                                                             <h4>Fresh Chicken Salad</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>25000</h6>
                                                             </div>
@@ -396,6 +412,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-01.png" alt="">
                                                             <h4>Dollma Pire</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>20000</h6>
                                                             </div>
@@ -405,6 +422,7 @@
                                                         <div class="tab-item">
                                                             <img src="assets/images/tab-item-04.png" alt="">
                                                             <h4>Omelette & Cheese</h4>
+                                                            <p>Makanan yang sangat lezat cocok untuk makan malam</p>
                                                             <div class="price">
                                                                 <h6>18000</h6>
                                                             </div>

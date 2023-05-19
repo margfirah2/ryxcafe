@@ -31,6 +31,8 @@ Route::get("/updateview/{id}", [AdminController::class,"updateview"]);
 
 Route::post("/update/{id}", [AdminController::class,"update"]);
 
+Route::post("/reservation", [AdminController::class,"reservation"]);
+
 Route::get("/redirects", [HomeController::class,"redirects"]);
 
 Route::middleware(['auth:sanctum','verified'])->get('/dashboard', function () {

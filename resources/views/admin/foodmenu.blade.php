@@ -61,7 +61,6 @@
 </tr>
 
 
-
 @foreach($data as $data)
 
 <tr align="center">

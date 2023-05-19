@@ -106,4 +106,10 @@ class AdminController extends Controller
         return redirect()->back();
 
     }
+
+    public function viewreservation()
+    {
+        $data=reservation::all();
+        return view("admin.adminreservation", compact("data"));
+    }
 }

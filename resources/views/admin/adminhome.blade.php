@@ -11,9 +11,9 @@
   </head>
   <body>
 
-  @include("admin.navbar");
+  @include("admin.navbar")
 
-  @include("admin.adminscript");
+  @include("admin.adminscript")
 
   </body>
 </html>
